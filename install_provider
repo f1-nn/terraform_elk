@@ -1,0 +1,8 @@
+// Configure the Yandex.Cloud provider
+provider "yandex" {
+  token                    = "AQAAAAAg1ezSAATuwXj1zYpMVk6glOMyUEmIei4"
+  service_account_key_file = "path_to_service_account_key_file"
+  cloud_id                 = "b1gtp0doq5g1t28951i9"
+  folder_id                = "b1gllp5tcpgdosk5isba"
+  zone                     = "ru-central1-a"
+}
